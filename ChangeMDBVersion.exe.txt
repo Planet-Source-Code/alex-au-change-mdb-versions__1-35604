@@ -1,0 +1,107 @@
+===========================================================================================
+Program:	ChangeMDBVersion.exe
+Version:	Build 1.0.1
+Copyright:	(C) 2002 Alex Au. All rights reserved
+Author:		Alex Au
+Revision Date:	2002/06/05
+
+===========================================================================================
+
+Acknowledgement:
+
+		Thanks the following programmers' for their codes and/or controls
+
+		Registry Module: 	Tretyakov Konstantin (kt_ee@yahoo.com)
+		ButtonEx Control:	Jeff Pearson
+		Folder Browser Control:	(Sorry I forgot the author's name)
+
+===========================================================================================
+
+A.	Purpose
+B.	Requirements
+C.	Instruction
+D.	Revisions
+E.	License
+F.	Warranty
+G.	Contact
+
+===========================================================================================
+
+A.Purpose:	For conversion of MS Access Databases between JET 3.X and JET 4.X
+		(MS Access 97 and MS Access 2000) using DAO 3.6
+
+===========================================================================================
+
+B.Requirements:	MSVBVM60.DLL, DAO 3.6
+
+===========================================================================================
+
+C.Instruction:	1. Type or Select (Press Alt + DownArrow or Click on the Folder icon)
+		to select source path (Path where your databases resides).
+
+		2. By default, the destination path will be your source path + \NewVer
+		but you can change at your desire.
+
+		3. Select the conversion type, ie. from Access 97 to Access 2000 or the
+		reverse.
+
+		4. Click OK to Start.
+
+		5. If the Destination path does not exist, the program will create it
+
+		6. If the Destination path exist and there are MS Access Databases inside, 
+		system will prompt you before execution after you click on OK button.
+
+		7. If there is same file name in the destination, after your confirmation,
+		the files will be overwritten.
+
+		8. The application will show the progress at the bottom inside the status
+		bar.
+
+		9. After version changed, the application will display "Version Changed!"
+		inside the status bar.
+
+		10. Click Exit to terminate the application.
+
+===========================================================================================
+
+D.Revisions:	Build 1.0.1 (2002/06/05)
+		------------------------
+		Set the default values for each fields according to the source table
+		Add Mouse Pointer Change when processing.
+
+		Build 1.0.0 (2002/05/30)
+		------------------------
+		Initial version for converting between Jet 3.x and Jet 4.x
+		Will copy all the tables, queries and index to new verion
+
+===========================================================================================
+
+E.License:	Permission is granted to anyone to use this software and its source code
+		for any purpose, including commercial applications, and to alter and
+		redistribute it, provided that the following conditions are met:
+
+		1. You may NOT distribute ANY EDITED or ALTERED version of this software
+		   or its source code without prior permission of the author.
+
+		2. You may NOT sell or freely distribute this software nor its source code
+		   under a DIFFERENT name.
+
+		3. You may NOT sell or put edited or unedited versions of this software
+		   its code on the INTERNET without prior permission of the author.
+
+===========================================================================================
+
+F.Warranty:	This software and its source code is provided "as-is," without any express
+		or implied warranty. In no event shall the author be held liable for any 
+		damages arising from the use of this software.
+
+===========================================================================================
+
+G.Contact:	If you got any questions or ideas or bugs, please let me know.
+
+		Alex Au
+		alex.au@hongkong.com
+
+
+
